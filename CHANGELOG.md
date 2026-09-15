@@ -1,6 +1,10 @@
 # Changelog
 
-### 0.1.6 (2026-09-15)
+### 0.1.7 (2026-09-15)
+
+#### Bug Fixes
+
+- ci: re-trigger release to verify jcore-update namespace scoping fix (77de572)
 
 #### Build System
 
@@ -36,6 +40,13 @@
 #### Documentation
 
 - readme: add note about breaking changes (BREAKING CHANGE) (501fbd9)
+
+### v0.1.6 (2026-09-15)
+
+#### Build System
+
+- composer: update jcodigital/jcore-update to v1.4 (c61d705)
+- composer: update jcodigital/jcore-update to v1.3.2 (14bea12)
 
 ### v0.1.4 (2026-09-15)
 
