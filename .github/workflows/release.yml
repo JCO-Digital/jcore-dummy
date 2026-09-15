@@ -1,0 +1,46 @@
+name: Release Plugin
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    outputs:
+      is_bumped: ${{ steps.cz.outputs.is_bumped }}
+      version: ${{ steps.cz.outputs.version }}
+      release_notes: ${{ steps.cz.outputs.release_notes }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Run Commitizen Action
+        id: cz
+        uses: commitizen-tools/commitizen-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          command: "auto"
+          changelog: "true"
+          push: "true"
+          commit_suffix: "[skip ci]"
+          version_sync: "jcore-dummy.php"
+
+  # Call the reusable workflow from jcore-update
+  publish:
+    needs: release
+    if: needs.release.outputs.is_bumped == 'true'
+    uses: JCO-Digital/jcore-update/.github/workflows/reusable-plugin-publish.yml@main
+    with:
+      slug: "jcore-dummy"
+      version: ${{ needs.release.outputs.version }}
+      release_notes: ${{ needs.release.outputs.release_notes }}
+      plugin_file: "jcore-dummy.php"
+      dist_repo: "git@git.jcore.fi:/srv/git/jcore-dummy.git"
+    secrets:
+      UPDATE_API_KEY: ${{ secrets.UPDATE_API_KEY }}

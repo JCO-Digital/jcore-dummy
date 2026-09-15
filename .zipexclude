@@ -1,0 +1,16 @@
+.zipexclude
+.distignore
+.editorconfig
+.git/*
+.gitignore
+.github/*
+release/*
+.*~
+composer.json
+composer.lock
+README.md
+phpcs.xml
+*.sql
+*.tar.gz
+*.zip
+Makefile

@@ -1,0 +1,7 @@
+vendor/
+release/
+.idea/
+.DS_Store
+*.log
+*~
+*.bak

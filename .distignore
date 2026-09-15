@@ -1,0 +1,6 @@
+.github/
+.idea/
+release/
+vendor/
+.zipexclude
+Makefile
