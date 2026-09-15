@@ -1,9 +1,10 @@
 # Changelog
 
-### 0.1.5 (2026-09-15)
+### 0.1.6 (2026-09-15)
 
 #### Build System
 
+- composer: update jcodigital/jcore-update to v1.4 (c61d705)
 - composer: update jcodigital/jcore-update to v1.3.2 (14bea12)
 - composer: update jco-digital/jcore-update to v1.3.1 (78995f2)
 - composer: bump jcodigital/jcore-update to ^1.3 (72d4b4c)
