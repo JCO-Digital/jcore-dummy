@@ -1,6 +1,10 @@
 # Changelog
 
-### 0.1.2 (2026-09-15)
+### 0.1.3 (2026-09-15)
+
+#### Build System
+
+- composer: bump jcodigital/jcore-update to ^1.3 (72d4b4c)
 
 #### Continuous Integration
 
@@ -11,6 +15,12 @@
 #### Documentation
 
 - readme: add note about breaking changes (BREAKING CHANGE) (501fbd9)
+
+### v0.1.2 (2026-09-15)
+
+#### Continuous Integration
+
+- github: add 0.1.x branch to release workflow (e2b1e32)
 
 ### v0.1.1 (2026-09-15)
 
