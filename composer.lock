@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "baf8d1f8316482a81e9c07ee44533770",
+    "content-hash": "62c02de3704ecb105d67653fee7953a3",
     "packages": [
         {
             "name": "composer/installers",
@@ -154,16 +154,16 @@
         },
         {
             "name": "jcodigital/jcore-update",
-            "version": "v1.3.2",
+            "version": "v1.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/JCO-Digital/jcore-update.git",
-                "reference": "3675cc0fed4a052dbdd29bce4d69f6f5533fab40"
+                "reference": "f24829062e3b78a90f15ee24143946e45bee46dc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/JCO-Digital/jcore-update/zipball/3675cc0fed4a052dbdd29bce4d69f6f5533fab40",
-                "reference": "3675cc0fed4a052dbdd29bce4d69f6f5533fab40",
+                "url": "https://api.github.com/repos/JCO-Digital/jcore-update/zipball/f24829062e3b78a90f15ee24143946e45bee46dc",
+                "reference": "f24829062e3b78a90f15ee24143946e45bee46dc",
                 "shasum": ""
             },
             "require": {
@@ -186,9 +186,9 @@
             "description": "Composer-installable WordPress plugin updater integration for the JCORE Update API.",
             "support": {
                 "issues": "https://github.com/JCO-Digital/jcore-update/issues",
-                "source": "https://github.com/JCO-Digital/jcore-update/tree/v1.3.2"
+                "source": "https://github.com/JCO-Digital/jcore-update/tree/v1.4.0"
             },
-            "time": "2026-09-15T10:23:39+00:00"
+            "time": "2026-09-15T14:29:11+00:00"
         }
     ],
     "packages-dev": [
