@@ -7,3 +7,7 @@ A dummy WordPress plugin used specifically to test the [JCORE Update](https://gi
 - Integrates with `jcodigital/jcore-update`
 - Configured with automated release publishing workflow
 - Lightweight dummy plugin designed for update testing
+
+## Comment about breaking change.
+
+We will introduce a breaking change to bump major version.
