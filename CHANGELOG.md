@@ -1,6 +1,12 @@
 # Changelog
 
-### 0.1.1 (2026-09-15)
+## 1.0.0 (2026-09-15)
+
+#### Documentation
+
+- readme: add note about breaking changes (BREAKING CHANGE) (501fbd9)
+
+### v0.1.1 (2026-09-15)
 
 #### Build System
 
