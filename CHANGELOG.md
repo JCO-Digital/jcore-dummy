@@ -1,15 +1,28 @@
 # Changelog
 
-### 0.1.4 (2026-09-15)
+### 0.1.5 (2026-09-15)
 
 #### Build System
 
+- composer: update jcodigital/jcore-update to v1.3.2 (14bea12)
 - composer: update jco-digital/jcore-update to v1.3.1 (78995f2)
 - composer: bump jcodigital/jcore-update to ^1.3 (72d4b4c)
 
 #### Continuous Integration
 
 - github: add 0.1.x branch to release workflow (e2b1e32)
+
+### v1.0.3 (2026-09-15)
+
+#### Build System
+
+- composer: update jcodigital/jcore-update to v1.3.2 (477bf14)
+
+### v1.0.2 (2026-09-15)
+
+#### Build System
+
+- composer: update jcodigital/jcore-update to v1.3.1 (7cd4ebc)
 
 ### v1.0.1 (2026-09-15)
 
@@ -22,6 +35,12 @@
 #### Documentation
 
 - readme: add note about breaking changes (BREAKING CHANGE) (501fbd9)
+
+### v0.1.4 (2026-09-15)
+
+#### Build System
+
+- composer: update jco-digital/jcore-update to v1.3.1 (78995f2)
 
 ### v0.1.3 (2026-09-15)
 

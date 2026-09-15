@@ -4,7 +4,7 @@
  * Description:       Dummy plugin for testing JCORE update process and API.
  * Plugin URI:        https://github.com/JCO-Digital/jcore-dummy#readme
  * Author:            JCO Digital
- * Version:           0.1.4
+ * Version:           0.1.5
  * Requires at least: 6.7
  * Tested up to:      7.0
  * Requires PHP:      8.1
