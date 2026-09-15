@@ -1,6 +1,12 @@
 # Changelog
 
-### 1.0.1 (2026-09-15)
+### 1.0.2 (2026-09-15)
+
+#### Build System
+
+- composer: update jcodigital/jcore-update to v1.3.1 (7cd4ebc)
+
+### v1.0.1 (2026-09-15)
 
 #### Build System
 
@@ -11,6 +17,12 @@
 #### Documentation
 
 - readme: add note about breaking changes (BREAKING CHANGE) (501fbd9)
+
+### v0.1.4 (2026-09-15)
+
+#### Build System
+
+- composer: update jco-digital/jcore-update to v1.3.1 (78995f2)
 
 ### v0.1.3 (2026-09-15)
 
