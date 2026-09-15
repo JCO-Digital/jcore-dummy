@@ -1,6 +1,18 @@
 # Changelog
 
-### 0.1.1 (2026-09-15)
+### 0.1.2 (2026-09-15)
+
+#### Continuous Integration
+
+- github: add 0.1.x branch to release workflow (e2b1e32)
+
+## v1.0.0 (2026-09-15)
+
+#### Documentation
+
+- readme: add note about breaking changes (BREAKING CHANGE) (501fbd9)
+
+### v0.1.1 (2026-09-15)
 
 #### Build System
 
